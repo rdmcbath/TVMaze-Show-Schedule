@@ -45,9 +45,6 @@ public class ScheduleResponse implements Serializable {
     @SerializedName("show")
     @Expose
     private Show show;
-    @SerializedName("_links")
-    @Expose
-    private Links__1 links;
 
     public Integer getId() {
         return id;
@@ -151,13 +148,5 @@ public class ScheduleResponse implements Serializable {
 
     public void setShow(Show show) {
         this.show = show;
-    }
-
-    public Links__1 getLinks() {
-        return links;
-    }
-
-    public void setLinks(Links__1 links) {
-        this.links = links;
     }
 }

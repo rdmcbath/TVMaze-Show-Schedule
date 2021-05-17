@@ -55,9 +55,6 @@ public class Show implements Serializable {
     @SerializedName("dvdCountry")
     @Expose
     private Object dvdCountry;
-    @SerializedName("externals")
-    @Expose
-    private Externals externals;
     @SerializedName("image")
     @Expose
     private Image image;
@@ -67,9 +64,6 @@ public class Show implements Serializable {
     @SerializedName("updated")
     @Expose
     private Integer updated;
-    @SerializedName("_links")
-    @Expose
-    private Links links;
     @SerializedName("averageRuntime")
     @Expose
     private Integer averageRuntime;
@@ -202,14 +196,6 @@ public class Show implements Serializable {
         this.dvdCountry = dvdCountry;
     }
 
-    public Externals getExternals() {
-        return externals;
-    }
-
-    public void setExternals(Externals externals) {
-        this.externals = externals;
-    }
-
     public Image getImage() {
         return image;
     }
@@ -232,14 +218,6 @@ public class Show implements Serializable {
 
     public void setUpdated(Integer updated) {
         this.updated = updated;
-    }
-
-    public Links getLinks() {
-        return links;
-    }
-
-    public void setLinks(Links links) {
-        this.links = links;
     }
 
     public Integer getAverageRuntime() {
