@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TVMaze Schedule</string>
+    <string name="title_activity_main">Show Schedule</string>
+</resources>
